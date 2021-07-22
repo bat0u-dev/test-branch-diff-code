@@ -8,8 +8,8 @@ public class Main {
             strBuff.append("z-/-");
             System.out.println(strBuff);
             System.out.println(LocalDateTime.now());
-            i=i+2;
+            i=i+4;
         }
     }
-    //5 incoming from remote origin changes
+    //7 incoming from remote origin changes
 }
