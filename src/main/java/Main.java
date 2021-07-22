@@ -5,7 +5,7 @@ public class Main {
         while(i<7){
             strBuff.append("z-/-");
             System.out.println(strBuff);
-            i++;
+            i=i+2;
         }
     }
     //forth incoming from remote origin changes
