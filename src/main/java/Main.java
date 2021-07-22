@@ -1,3 +1,5 @@
+import java.time.LocalDateTime;
+
 public class Main {
     public static void main(String[] args) {
         int i = 0;
@@ -5,6 +7,7 @@ public class Main {
         while(i<7){
             strBuff.append("z-/-");
             System.out.println(strBuff);
+            System.out.println(LocalDateTime.now());
             i=i+2;
         }
     }
